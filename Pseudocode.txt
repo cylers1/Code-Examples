@@ -1,0 +1,52 @@
+Pong Pseudocode:
+
+Variables:
+Score1
+Score2
+Paddle1 position
+Paddle2 position
+Ball position
+
+IF Statements:
+
+if Space is pressed, move the ball diagonally -X or +X and -Y or +Y
+if player 1 inputs up or down, move left paddle up or down
+if player 2 inputs up or down, move right paddle up or down
+if ball hits -X side, Display Score +1 on Player 2 Score, reset ball
+if ball hits +X side, Display Score +1 on Player 1 Score, reset ball
+if ball hits Y side, bounce off edge
+If ball hits Paddle, bounce off Paddle
+If Player 1 Score reaches 10, display "Player 1 wins", end game
+iF Player 2 Score reaches 10, display "Player 2 wins", end game
+
+Inputs/Outputs:
+
+Player1 Up/Down
+Player1 Spacebar
+Player2 Up/Down
+Display Score
+Display Start button
+Emit sound (depending on version)
+
+
+
+On game start, Make two paddles
+
+if Space is pressed, move the ball diagonally -X or +X and -Y or +Y
+if player 1 inputs up or down, move left paddle up or down
+if player 2 inputs up or down, move right paddle up or down
+
+if ball hits -X side, Display Score +1 on Player 2 Score, reset ball
+if ball hits +X side, Display Score +1 on Player 1 Score, reset ball
+
+if ball hits Y side, bounce off edge
+
+If ball hits Paddle, bounce off Paddle
+
+If Player 1 Score reaches 10, display "Player 1 wins", end game
+iF Player 2 Score reaches 10, display "Player 2 wins", end game
+
+When game ends, Display "play again?", If space is pressed, start game.
+
+
+

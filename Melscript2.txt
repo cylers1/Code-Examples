@@ -1,0 +1,32 @@
+for ($zrows = 0; $zrows < 4; @zrows++) {
+select -all;
+move -r 0 0 -.5;
+	for ($rows = 0; $rows <8; $rows++) {
+		for($y = 0; $y <rand(1,8); $y++) {
+			if($x > 2 && $x < rand)3,5) || $y > 2 && $y < 5)
+				{
+					$randSize = rand(0.20,0.30);
+						polySphere -r $randSize;
+					int $rand = rand(1,4);
+					if ($rand == 1)
+						{
+							sets -e -forceElement lambert2SG;
+						}
+					else if ($rand == 2)
+						{
+							sets -e -forceElement lambert3SG;
+						}
+					else
+						{
+							sets -e -forceElement lambert4SG;
+						}
+					move (0.5 * $x) (0.5 * $y) 0;
+					}
+				else
+					{
+						//leave a "hole"
+					}
+				}
+			}
+}
+}

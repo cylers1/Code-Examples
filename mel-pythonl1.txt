@@ -1,0 +1,10 @@
+import maya.cmds as cmds
+cmds.polyCube (w=1, h=1)
+cmds.move (5, 4, 16, relative = True)
+cmds.scale(15,1,1)
+cmds.delete()
+
+cmds.polySphere (radius=1, subdivisionsX=4, name="testSphere")
+cmds.move (3,2,1, "testSphere", relative=True)
+
+cmds.pointLight(rgb=(1,1,0.5))
